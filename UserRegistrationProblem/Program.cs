@@ -28,6 +28,9 @@
                 case 3:
                     EmailPattern.ValidateEmail();
                     break;
+                case 4:
+                    MobileNumberPattern.ValidateMobileNumber();
+                    break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
                     break;
