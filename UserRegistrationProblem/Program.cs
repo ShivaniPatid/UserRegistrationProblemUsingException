@@ -25,6 +25,9 @@
                 case 2:
                     LastNamePattern.ValidateLastName();
                     break;
+                case 3:
+                    EmailPattern.ValidateEmail();
+                    break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
                     break;
