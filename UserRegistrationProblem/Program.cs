@@ -39,6 +39,9 @@
                 case 7:
                     PasswordThreePattern.ValidatePassword();
                     break;
+                case 8:
+                    PasswordFourPattern.ValidatePassword();
+                    break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
                     break;
