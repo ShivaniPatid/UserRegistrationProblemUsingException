@@ -5,7 +5,6 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Choose a option");
-            Console.WriteLine("Chosee a oprtion");
             Console.WriteLine("1. UC1 - Validate First Name");
             Console.WriteLine("2. UC2 - Validate Last Name");
             Console.WriteLine("3. UC3 - Validate Email Address");
@@ -30,6 +29,12 @@
                     break;
                 case 4:
                     MobileNumberPattern.ValidateMobileNumber();
+                    break;
+                case 5:
+                    PasswordOnePattern.ValidatePassword();
+                    break;
+                case 6:
+                    PasswordTwoPattern.ValidatePassword();
                     break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
