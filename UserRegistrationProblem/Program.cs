@@ -42,6 +42,9 @@
                 case 8:
                     PasswordFourPattern.ValidatePassword();
                     break;
+                case 9:
+                    EmailPattern.ValidateEmail();
+                    break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
                     break;
