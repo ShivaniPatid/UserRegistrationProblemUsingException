@@ -17,8 +17,7 @@ namespace UserRegistrationProblem
                 Console.WriteLine("Enter a email");
                 string email = Console.ReadLine();
 
-                string pattern = @"^([a-z]+)([._+-])([a-z0-9_\+\-]+)?@([a-z]+)\.([a-z]{2,4})(\.[a-z]{2,4})?$";
-
+                string pattern = @"^([a-z]+)(\.[a-z0-9_\+\-]+)?@([a-z]+)\.([a-z]{2,4})(\.[a-z]{2})?$";
                 if (Regex.IsMatch(email, pattern))
                 {
                     Console.WriteLine("Email is "+email);
