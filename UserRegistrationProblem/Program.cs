@@ -22,6 +22,9 @@
                 case 1:
                     FirstNamePattern.ValidateFirstName();
                     break;
+                case 2:
+                    LastNamePattern.ValidateLastName();
+                    break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
                     break;
